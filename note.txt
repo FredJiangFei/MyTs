@@ -19,5 +19,28 @@ Ts guesses type of value
 ### flexible types
 const xx: (Date | string)[] = [new Date(), '2022-1-1'];
 
-#Tuples
-type Drink
+# Tuples
+
+# Interface
+
+# Classes
+private/public/protected
+super()
+
+### run ts in browser
+npm install -g parcel-bundler
+parcel index.html
+
+### faker package
+
+### Type definition file
+ts code ==> type definition file ==> js library
+@types/{library name} => @types/faker
+
+
+### export default 不建议用
+export xxx
+
+### google map
+
+
