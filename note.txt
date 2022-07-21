@@ -1,0 +1,23 @@
+# Start
+
+### Converter
+https://www.typescriptlang.org/
+
+### Compiler
+npm install -g typescript ts-node
+tsc
+
+
+### Type annotations
+We tell ts type of value
+
+### Type inference
+Ts guesses type of value
+
+### type never
+
+### flexible types
+const xx: (Date | string)[] = [new Date(), '2022-1-1'];
+
+#Tuples
+type Drink
