@@ -7,7 +7,6 @@ https://www.typescriptlang.org/
 npm install -g typescript ts-node
 tsc
 
-
 ### Type annotations
 We tell ts type of value
 
