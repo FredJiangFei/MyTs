@@ -1,5 +1,3 @@
-import { Account } from './models/account';
-
 // Type aliases
 type Employee = {
   readonly id: number;
@@ -63,5 +61,30 @@ console.log(speed ?? 30);
 // 2.<Type> xx
 
 // The unknown type
+// 编译时报错，避免调用不属于类型的方法，比 any 类型更安全，any编译时不会报错
+function render(document: unknown) {
+  // any
+  if (typeof document === 'string') {
+    document.toUpperCase();
+  }
+
+  // document.move();
+  // document.fly();
+}
 
 // The never type
+// 一个从来不会有返回值的函数
+// 一个总是会抛出错误的函数
+// "allowUnreachableCode": false
+function processEvents(): never {
+  while (true) {
+    // Read a message
+  }
+}
+
+function reject(message: string): never {
+  throw new Error(message);
+}
+
+processEvents();
+console.log('After processEvents');
