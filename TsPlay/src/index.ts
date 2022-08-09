@@ -1,4 +1,13 @@
-type Drink = [string, boolean, number]
+let num: number = 123_456_789;
+console.log(num);
 
-const pepsi: Drink = ['brown', true, 40]
-console.log(pepsi)
+let numbers: number[] = [];
+let user: [number, string] = [1, 'Fred'];
+
+enum Size {
+  Small = 1,
+  Medium,
+  Large,
+}
+let mySize: Size = Size.Small;
+console.log(mySize);
