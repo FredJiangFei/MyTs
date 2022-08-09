@@ -17,5 +17,4 @@ const enum Size { Small = 1, Medium, Large }
 
 # Functions
 
-
 # Objects

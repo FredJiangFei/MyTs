@@ -11,3 +11,17 @@ enum Size {
 }
 let mySize: Size = Size.Small;
 console.log(mySize);
+
+function cal(icome: number, tax: number = 2021) {
+  let rate = 1.3;
+  if (tax > 2022) return icome * rate;
+
+  return icome * (rate + 0.1);
+}
+
+let employee: {
+  readonly id: number;
+  name: string;
+  nickname?: string;
+} = { id: 1, name: 'Fred' };
+employee.nickname = 'LaoGanMa';
