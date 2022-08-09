@@ -35,9 +35,30 @@ let textBox: UIWidget = {
   resize: () => {},
 };
 
+// Literal Type
+type Quantity = 50 | 100;
+let quan: Quantity = 50;
+type Metric = 'cm' | 'inch';
+
 // Type narrowing
 
 // Nullable types
+function greet(name: string) {
+  if (name) console.log(name.toUpperCase());
+  else console.log('Hello');
+}
+greet(null);
+
+// Optional Chaining
+// x?.y?.z
+
+// Nullish Coaelscng Operator ?? null or undefined
+let speed: number | null = 0;
+console.log(speed ?? 30);
+
+// Type Assertions
+// 1. xx as Type
+// 2.<Type> xx
 
 // The unknown type
 
