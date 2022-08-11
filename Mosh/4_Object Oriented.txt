@@ -21,3 +21,5 @@ private / public / protect
 # Private / Protected
 
 # Abstract Classes and Methods
+
+# Interface
