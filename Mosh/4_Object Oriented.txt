@@ -5,3 +5,16 @@
 private / public / protect
 
 # getter / setter
+
+
+# Index Signatures
+
+# Static Member
+
+# Inheritance
+
+# Method overriding
+"noImplicitOverride": true,
+
+# Polymorphism
+
