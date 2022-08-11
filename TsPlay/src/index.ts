@@ -1,8 +1,6 @@
-import { Student } from './models/student';
-import { Teacher } from './models/teacher';
 import { Account } from './models/account';
 import { Ride } from './models/ride';
-import { Person } from './models/person';
+import { Person, Student, Teacher } from './models/person';
 
 //Object-Oriented
 let account = new Account(1, 'Fred', 0);
