@@ -9,3 +9,5 @@
 # Extend Generic Classes
 
 # keyof
+
+# type mapping
