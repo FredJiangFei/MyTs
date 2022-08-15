@@ -1,6 +1,7 @@
 import { Account } from './models/account';
 import { Ride } from './models/ride';
 import { Person, Student, Teacher } from './models/person';
+import { ProfileComponent } from './decorators/profile';
 
 //Object-Oriented
 let account = new Account(1, 'Fred', 0);
@@ -25,3 +26,7 @@ printNames([new Student(1, 'Fred', 'Jiang'), new Teacher('Tom', 'Doacny')]);
 function printNames(people: Person[]) {
   for (let person of people) console.log(person.fullName);
 }
+
+// decorators
+const profile = new ProfileComponent();
+console.log(profile);

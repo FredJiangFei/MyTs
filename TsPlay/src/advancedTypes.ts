@@ -87,4 +87,4 @@ function reject(message: string): never {
 }
 
 processEvents();
-console.log('After processEvents');
+// console.log('After processEvents');
