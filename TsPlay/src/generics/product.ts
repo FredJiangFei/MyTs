@@ -1,6 +1,7 @@
 // Extend Generic Classes
 interface Product {
   name: string;
+  category: string;
   price: number;
 }
 
@@ -20,4 +21,14 @@ let store = new CompressibleStore<Product>();
 // store.add();
 store.compress();
 
-class SearchableStore<T> extends Store<T> {}
+class SearchableStore<T extends { name: string }> extends Store<T> {
+  find(name: string): T | undefined {
+    return this.objects.find((obj) => obj.name === name);
+  }
+}
+
+class ProductStore extends Store<Product> {
+  filterByCategory(category: string): Product[] {
+    return this.objects.filter((obj) => obj.category === category);
+  }
+}
