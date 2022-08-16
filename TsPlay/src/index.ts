@@ -2,6 +2,7 @@ import { Account } from './models/account';
 import { Ride } from './models/ride';
 import { Person, Student, Teacher } from './models/person';
 import { ProfileComponent } from './decorators/profile';
+import { calTax } from './tax';
 
 //Object-Oriented
 let account = new Account(1, 'Fred', 0);
@@ -30,3 +31,5 @@ function printNames(people: Person[]) {
 // decorators
 const profile = new ProfileComponent();
 console.log(profile);
+
+console.log(calTax(10_000));

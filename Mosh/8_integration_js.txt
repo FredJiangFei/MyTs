@@ -1,0 +1,10 @@
+# include js in ts
+ "allowJs": true
+
+# type check js code
+"checkJs": true
+// @ts-nocheck
+
+# describe type using JSDoc
+
+# create declaration file
