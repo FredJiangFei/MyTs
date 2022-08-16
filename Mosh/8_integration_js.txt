@@ -8,3 +8,7 @@
 # describe type using JSDoc
 
 # create declaration file
+
+# DefinitelyTyped
+https://github.com/DefinitelyTyped/DefinitelyTyped
+npm install --save-dev @types/xxxxx
