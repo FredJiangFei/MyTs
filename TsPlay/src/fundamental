@@ -15,7 +15,7 @@ enum Size {
   Large,
 }
 let mySize: Size = Size.Small;
-console.log(mySize);
+console.log('mySize:',mySize);
 
 // function
 function cal(icome: number, tax: number = 2021) {

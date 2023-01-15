@@ -12,7 +12,7 @@ export class Account {
 
     this._balance += amount;
   }
-
+ 
   get balance(): number {
     return this._balance;
   }

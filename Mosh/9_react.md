@@ -5,3 +5,7 @@ npx create-react-app react-ts --template typescript
 
 # create a component
 React code snippets
+
+
+# handle event
+# build form
